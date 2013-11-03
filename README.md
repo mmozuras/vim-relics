@@ -3,6 +3,8 @@
 Manipulate development relics (think `console.log`, `debugger` statements, but
 in your favorite language, instead of JavaScript) with simple commands.
 
+Inspired by [this tweet](https://twitter.com/kevindente/status/385864692754681856) by [Kevin Dente](https://github.com/kevindente).
+
 Currently available commands:
 
 ```
