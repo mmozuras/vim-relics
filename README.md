@@ -1,7 +1,9 @@
 # vim-relics
 
-Manipulate development relics (think 'console.log', 'debugger' statements in
-your favorite language) with simple commands. Currently available commands:
+Manipulate development relics (think `console.log`, `debugger` statements, but
+in your favorite language, instead of JavaScript) with simple commands.
+
+Currently available commands:
 
 ```
 :NextRelic
@@ -11,7 +13,7 @@ your favorite language) with simple commands. Currently available commands:
 ```
 
 `NextRelic` and `PreviousRelic` are simple searches underneath, so you can use
-them the same way (delete until next relic: `d:NextRelic`).
+them the same way (for example, delete until next relic: `d:NextRelic`).
 
 ## Contribute
 

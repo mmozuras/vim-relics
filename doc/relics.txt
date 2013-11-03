@@ -1,0 +1,39 @@
+*relics* Manipulate development relics in Vim
+
+Usage                                          |relics-usage|
+Install                                        |relics-install|
+
+This is a vimscript to manipulate development relics (think 'console.log',
+'debugger', but in your favorite programming language).
+
+For the latest version please see
+https://github.com/mmozuras/relics.
+
+==============================================================================
+USAGE                                                 *relics-usage*
+
+- Find next relic. >
+
+    :NextRelic
+
+- Find previous relic. >
+
+    :PreviousRelic
+
+- Delete all relics in current buffer. >
+
+    :DeleteRelics
+
+- Delete all lines containing relics in current buffer. >
+
+    :DeleteRelicLInes
+<
+==============================================================================
+INSTALL                                               *relics-install*
+
+Copy following files into your plugin directory.
+
+rtp:
+  - plugin/relics.vim
+
+You can also use other ways of installation.

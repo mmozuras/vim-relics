@@ -1,5 +1,5 @@
-" relics: Manipulate development relics (think 'console.log', 'debugger' in
-" your favorite programming language) with simple commands.
+" relics: Manipulate development relics (think 'console.log', 'debugger', but
+" in your favorite programming language) with simple commands.
 " Author:         mmozuras
 " HomePage:       https://github.com/mmozuras/vim-relics
 " Readme:         https://github.com/mmozuras/vim-relics/blob/master/README.md
