@@ -23,6 +23,11 @@ function! PreviousRelic()
   execute "normal! ?".regex."\<cr>"
 endfunction
 
+function! DeleteRelics()
+  let regex = s:RelicsRegex()
+  execute "%s/".regex."//"
+endfunction
+
 function! s:CurrentFiletypes()
   return split(&filetype, '\.')
 endfunction
