@@ -28,6 +28,11 @@ function! DeleteRelics()
   execute "%s/".regex."//"
 endfunction
 
+function! DeleteRelicLines()
+  let regex = s:RelicsRegex()
+  execute "g/".regex."/normal ndd"
+endfunction
+
 function! s:CurrentFiletypes()
   return split(&filetype, '\.')
 endfunction
